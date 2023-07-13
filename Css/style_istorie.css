@@ -1,0 +1,261 @@
+@font-face {
+  font-family: Light;
+  src: url("../Font/AkzidenzGroteskBE-Light.otf");
+}
+
+@font-face {
+  font-family: MediumCd;
+  src: url("../Font/AkzidenzGroteskBE-MdCn.otf");
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("../Font/AkzidenzGroteskBE-Regular.otf");
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #22272F;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #22272F;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BB2234;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BB2234;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #22272F;
+}
+
+body {
+  font-family: MediumCd;
+  color: #FFF0F5;
+  overflow-x: hidden;
+}
+
+.Slide {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Slideshow {
+  position: relative;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Continut1 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+}
+
+.Continut2 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.Img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OverlayImg {
+  z-index: 30;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #22272F;
+  opacity: 0.85;
+}
+
+.Titlu1 {
+  color: #BB2234;
+  z-index: 3;
+  top: 100px;
+  left: 105px;
+}
+
+.Titlu2 {
+  color: #FFF0F5;
+  z-index: 2;
+  top: 100px;
+  left: 100px;
+}
+
+.Continut2 h1 {
+  margin: 0;
+  font-size: 80px;
+  position: absolute;
+}
+
+.Continut2 p {
+  position: relative;
+  margin: 0;
+  font-family: Regular;
+  top: 250px;
+  left: 100px;
+  text-align: justify;
+  text-indent: 50px;
+  width: 80%;
+}
+
+.Inapoi, .Inainte {
+  position: absolute;
+  top: 0%;
+  height: 100vh;
+  width: 5vw;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  z-index: 50;
+  transition: 0.6s ease;
+  opacity: 0.3;
+}
+
+.Inainte {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.Inapoi {
+  margin-left: -5px;
+}
+
+.Inapoi:hover {
+  background-color: #BB2234;
+}
+
+.Inainte:hover {
+  background-color: #BB2234;
+}
+
+.Buline {
+  position: absolute;
+  text-align: center;
+  z-index: 50;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 20px;
+}
+
+.Bulina {
+  height: 25px;
+  width: 50px;
+  margin: 0 10px;
+  background-color: #FFF0F5;
+  border-radius: 25px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.Active, .Bulina:hover {
+  background-color: #BB2234;
+}
+
+.Fade {
+  -webkit-animation-name: Fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: Fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes Fade {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes Fade {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.C01 {
+  font-size: 26px;
+}
+
+.C02 {
+  font-size: 24px;
+}
+
+.C03 {
+  font-size: 27px;
+}
+
+.C04 {
+  font-size: 22px;
+}
+
+.C05 {
+  font-size: 20px;
+}
+
+.C06 {
+  font-size: 20px;
+}
+
+.C07 {
+  font-size: 27px;
+}
+
+.Img_01{
+  background-image: url("../Poze/S1.jpg");
+  background-position: center;
+}
+
+.Img_02{
+  background-image: url("../Poze/S2.jpg");
+  background-position: center;
+}
+
+.Img_03{
+  background-image: url("../Poze/S3.jpg");
+  background-position: center;
+}
+
+.Img_04{
+  background-image: url("../Poze/S4.jpg");
+  background-position: center;
+}
+
+.Img_05{
+  background-image: url("../Poze/S5.jpg");
+  background-position: center;
+}
+
+.Img_06{
+  background-image: url("../Poze/S6.jpg");
+  background-position: center;
+}
+
+.Img_07{
+  background-image: url("../Poze/S7.jpg");
+  background-position: center;
+}
