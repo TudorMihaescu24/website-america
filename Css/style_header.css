@@ -1,0 +1,139 @@
+/*
+#BB2234;
+#BB2234;
+#DFDFDF;
+#22272F;
+*/
+@font-face {
+  font-family: MediumCd;
+  src: url("../Font/AkzidenzGroteskBE-MdCn.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+.Header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #DFDFDF;
+  max-width: 960px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 15vh;
+  margin: auto;
+  text-align: center;
+  height: 43vh;
+}
+
+.Video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  height: 43vh;
+}
+
+.Video video {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.VideoclipOverlay {
+  height: 43vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1;
+  background: #22272F;
+  opacity: 0.85;
+}
+
+.Continut {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.Continut h1 {
+  margin: 0;
+  font-family: MediumCd;
+  font-size: 250px;
+  margin-bottom: 0;
+}
+
+.Titlu1_01 {
+  color: #BB2234;
+  position: absolute;
+  left: 10px;
+}
+
+@media(max-width:960px) {
+  .Header {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+.Meniu nav {
+  padding-left: 200px;
+}
+
+.Meniu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Meniu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+}
+
+.Btn_01 {
+  z-index: 10;
+  background-color: #DFDFDF;
+  border: none;
+  color: #DFDFDF;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 40px;
+  width: 100%;
+  margin-top: -120px;
+}
+
+.Btn_01 {
+  font-family: MediumCd;
+  font-size: 25px;
+  background-color: transparent;
+  color: #DFDFDF;
+  border: 5px solid #DFDFDF;
+  opacity: 0.8;
+}
+
+.Btn_01:hover {
+  background-color: #DFDFDF;
+  color: #BB2234;
+  opacity: 0.8;
+}
+
+.Btn_01 button:active:focus, .Btn button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}

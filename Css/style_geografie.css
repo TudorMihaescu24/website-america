@@ -1,0 +1,309 @@
+@font-face {
+  font-family: Light;
+  src: url("../Font/AkzidenzGroteskBE-Light.otf");
+}
+
+@font-face {
+  font-family: MediumCd;
+  src: url("../Font/AkzidenzGroteskBE-MdCn.otf");
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("../Font/AkzidenzGroteskBE-Regular.otf");
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #22272F;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #22272F;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BB2234;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BB2234;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #22272F;
+}
+
+body {
+  font-family: MediumCd;
+  color: #FFF0F5;
+  overflow-x: hidden;
+}
+
+#Section_02 {
+  margin: 0;
+  width: 100vw;
+  height: 150vh;
+  background-color: #22272F;
+  position: relative;
+}
+
+.Continut_S02 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Img_02 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Poze/G1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 0%;
+}
+
+.OverlayImg_02 {
+  z-index: 30;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #22272F;
+  opacity: 0.85;
+}
+
+.Titlu1_02 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #BB2234;
+  z-index: 40;
+  top: 100px;
+  left: 105px;
+}
+
+.Titlu2_02 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #FFF0F5;
+  z-index: 39;
+  top: 100px;
+  left: 100px;
+}
+
+.Continut_S02 p {
+  font-family: Regular;
+  position: absolute;
+  color: #FFF0F5;
+  width: 60%;
+  z-index: 39;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-indent: 30px;
+}
+
+
+#Section_03 {
+  margin: 0;
+  width: 100vw;
+  height: 150vh;
+  background-color: #22272F;
+  position: relative;
+}
+
+.Continut_S03 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Img_03 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Poze/G2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 0%;
+}
+
+.OverlayImg_03 {
+  z-index: 30;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #22272F;
+  opacity: 0.85;
+}
+
+.Titlu1_03 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #BB2234;
+  z-index: 40;
+  top: 100px;
+  left: 105px;
+}
+
+.Titlu2_03 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #FFF0F5;
+  z-index: 39;
+  top: 100px;
+  left: 100px;
+}
+
+.Continut_S03 p {
+  font-family: Regular;
+  position: absolute;
+  color: #FFF0F5;
+  width: 60%;
+  z-index: 39;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-indent: 30px;
+}
+
+#Section_04 {
+  margin: 0;
+  width: 100vw;
+  height: 150vh;
+  background-color: #22272F;
+  position: relative;
+}
+
+.Continut_S04 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Img_04 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Poze/G3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 0%;
+}
+
+.OverlayImg_04 {
+  z-index: 30;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #22272F;
+  opacity: 0.85;
+}
+
+.Titlu1_04 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #BB2234;
+  z-index: 40;
+  top: 100px;
+  left: 105px;
+}
+
+.Titlu2_04 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #FFF0F5;
+  z-index: 39;
+  top: 100px;
+  left: 100px;
+}
+
+.Continut_S04 p {
+  font-family: Regular;
+  position: absolute;
+  color: #FFF0F5;
+  width: 60%;
+  z-index: 39;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-indent: 30px;
+}
+
+#Section_05 {
+  margin: 0;
+  width: 100vw;
+  height: 150vh;
+  background-color: #22272F;
+  position: relative;
+}
+
+.Continut_S05 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Img_05 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../Poze/G4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 0%;
+}
+
+.OverlayImg_05 {
+  z-index: 30;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #22272F;
+  opacity: 0.85;
+}
+
+.Titlu1_05 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #BB2234;
+  z-index: 40;
+  top: 100px;
+  left: 105px;
+}
+
+.Titlu2_05 {
+  margin: 0;
+  font-size: 200px;
+  position: absolute;
+  color: #FFF0F5;
+  z-index: 39;
+  top: 100px;
+  left: 100px;
+}
+
+.Continut_S05 p {
+  font-family: Regular;
+  position: absolute;
+  color: #FFF0F5;
+  width: 60%;
+  z-index: 39;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-indent: 30px;
+}
