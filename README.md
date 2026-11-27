@@ -2,6 +2,8 @@
 
 A multi-page website about the United States, written in Romanian. It has pages on history, geography, demographics, politics and presidents, plus sections on American actors, singers and athletes and a page of curiosities.
 
+![Home page](docs/screenshots/home.jpg)
+
 It was one of my first web projects (2023), built with plain HTML, CSS and JavaScript and a small PHP backend.
 
 ## Features
